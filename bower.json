@@ -1,0 +1,25 @@
+{
+  "name": "sponzormeweb",
+  "homepage": "https://github.com/carlosrojaso/sponzormeweb",
+  "authors": [
+    "Carlos Rojas <ing.carlosandresrojas@gmail.com>"
+  ],
+  "description": "web",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "wp-content/themes/sponzorme/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "typeahead.js-bootstrap3.less": "typeahead.js-bootstrap-css#~1.0.1"
+  }
+}
