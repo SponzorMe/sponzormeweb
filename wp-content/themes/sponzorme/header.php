@@ -50,7 +50,7 @@
 			<div class="navbar navbar-inverse navbar-fixed-top">
 			<div class="navbar-header">
 
-				<a class="" href="#/"><img class="padding-left-10" src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="sponzorme" height="50px"/><div style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/beta.png');height: 73px;width: 70px;background-repeat: no-repeat;position: absolute;z-index: 9999;margin-top: -25px;left: 156px;">
+				<a class="" href="<?php site_url(); ?>/?lang=<?php if(isset($_GET['lang'])){ echo $_GET['lang']; }else{ echo 'en';} ?>"><img class="padding-left-10" src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="sponzorme" height="50px"/><div style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/beta.png');height: 73px;width: 70px;background-repeat: no-repeat;position: absolute;z-index: 9999;margin-top: -25px;left: 156px;">
 				</div></a>
 			</div>
 				<section>
