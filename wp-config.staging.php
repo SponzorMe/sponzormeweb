@@ -18,7 +18,7 @@ define('DB_USER', 'wpweb');
 /** MySQL database password */
 define('DB_PASSWORD', 'qdtdRi3jAj2WUN$');
 /** MySQL hostname */
-define('DB_HOST', '173.194.82.208');
+define('DB_HOST', 'localhost');
 /**
  * For developers: WordPress debugging mode.
  *
