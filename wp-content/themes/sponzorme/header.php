@@ -31,7 +31,8 @@
 
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		<link href="<?php echo get_template_directory_uri(); ?>/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<!--<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/font-awesome.min.css" rel="stylesheet"> -->
 		<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/demo.css" rel="stylesheet">
 		<!--<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/main.css" rel="stylesheet"> -->
 

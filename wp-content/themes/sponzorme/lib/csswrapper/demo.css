@@ -1,5 +1,4 @@
 body {
-  font-family: "Myriad Pro", Verdana, Arial, Tahoma;
   padding-bottom: 40px;
   background-color: #042333 !important;
 }
@@ -13,11 +12,18 @@ body {
   margin: 30px 0;
 }
 
+.entry-content{
+  padding: 0 !important;
+  margin: 0 !important;
+  width: 100%;
+}
+
 .container{
   padding-right: 0;
   padding-left: 0;
   margin-right: 0;
   margin-left: 0;
+  width: 100% !important;
 }
 
 .buttoncontainer{
