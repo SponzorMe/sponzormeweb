@@ -16,7 +16,7 @@
 		<?php // mobile meta (hooray!) ?>
 		<meta name="HandheldFriendly" content="True">
 		<meta name="MobileOptimized" content="320">
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<?php // icons & favicons (for more: http://www.jonathantneal.com/blog/understand-the-favicon/) ?>
 		<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/library/images/apple-touch-icon.png">
@@ -28,12 +28,14 @@
 		<meta name="msapplication-TileColor" content="#f01d4f">
 		<meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/library/images/win8-tile-icon.png">
     <meta name="theme-color" content="#121212">
-
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 		<link href="<?php echo get_template_directory_uri(); ?>/lib/material-design-lite/material.min.css" rel="stylesheet">
 		<!--<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/font-awesome.min.css" rel="stylesheet"> -->
 		<!--<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/demo.css" rel="stylesheet">-->
 		<!--<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/main.css" rel="stylesheet"> -->
+
 		<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
@@ -49,7 +51,7 @@
 	    <header class="mdl-cell mdl-cell--12-col" >
 	      <section class="mdl-layout__header-row">
 	          <section class="logo mdl-cell mdl-cell--8-col">
-	            <p>Sponzor<strong>Me</strong></p>
+	            <a href="<?php site_url(); ?>/?lang=<?php if(isset($_GET['lang'])){ echo $_GET['lang']; }else{ echo 'en';} ?>"><p>Sponzor<strong>Me</strong></p></a>
 	          </section>
 	          <section class="redes mdl-cell mdl-cell--4-col">
 
