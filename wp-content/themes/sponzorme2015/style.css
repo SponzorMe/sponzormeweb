@@ -242,6 +242,7 @@ width: 49%;
 a.linkmain{
   color: #fbb03c !important;
   margin: 20px 20px !important;
+  text-decoration: none !important;
 }
 
 a.linkmain2{
@@ -278,11 +279,11 @@ p.link a:hover {
 .footermini a{
   text-decoration: none;
   margin: 0 5px;
-  color: black;
+  color: black !important;
 }
 
 .footermini a:hover{
   text-decoration: none;
   margin: 0 5px;
-  color: #FBB038;
+  color: #FBB038 !important;
 }
