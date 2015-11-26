@@ -1,3 +1,7 @@
+body{
+  font-family: 'Roboto' !important;
+}
+
 header {
   background-color: white !important;
   color: black !important;
@@ -128,11 +132,12 @@ footer {
   /* height: 55px; */
 }
 
-.mainbtn{
-  background-color:white;
-  font-size:20px;
-  padding:20px;
-  margin: 10px;
+.mainbtn {
+    background-color: white;
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px 115px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .mainbtn a{
@@ -160,6 +165,14 @@ footer {
   padding: 0px !important;
 }
 
+.tabs li#head1 {
+padding-left: 8px !important;
+width: 49%;
+}
+.tabs li#head2 {
+width: 49%;
+}
+
 .tabs input[type="radio"] {
   position: absolute;
   top: -9999px;
@@ -185,6 +198,18 @@ footer {
 .tabs label:hover {
   background: #703688;
 }
+
+.tabs label#tab1{
+  background-color: #fbb03b;
+  color: white;
+}
+
+
+.tabs label#tab2{
+  background-color: #cecece;
+  color: #565656;
+}
+
 .tabs .tab-content {
   z-index: 2;
   display: none;
@@ -192,7 +217,7 @@ footer {
   width: 30%;
   font-size: 17px;
   line-height: 25px;
-  padding: 25px;
+  padding: 10px;
   position: absolute;
   /*top: 53px;*/
   left: 35%;
@@ -209,8 +234,9 @@ footer {
 }
 
 .maintext{
-  color:white;
-  font-size:32px
+  color: white;
+  font-size:32px;
+  text-shadow: 1px 1px 1px black;
 }
 
 a.linkmain{
@@ -242,4 +268,21 @@ p.link a {
 }
 p.link a:hover {
   background-color: #522764;
+}
+
+.home-container .home-content .login-tabs md-pagination-wrapper md-tab-item.md-active {
+    background: #FBB03B;
+    color: white;
+}
+
+.footermini a{
+  text-decoration: none;
+  margin: 0 5px;
+  color: black;
+}
+
+.footermini a:hover{
+  text-decoration: none;
+  margin: 0 5px;
+  color: #FBB038;
 }
