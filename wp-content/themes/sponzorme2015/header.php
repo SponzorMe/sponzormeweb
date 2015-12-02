@@ -31,11 +31,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
-		<link href="<?php echo get_template_directory_uri(); ?>/lib/material-design-lite/material.min.css" rel="stylesheet">
-		<!--<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/font-awesome.min.css" rel="stylesheet"> -->
-		<!--<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/demo.css" rel="stylesheet">-->
-		<!--<link href="<?php echo get_template_directory_uri(); ?>/lib/csswrapper/main.css" rel="stylesheet"> -->
-
+		<link href="<?php echo get_template_directory_uri(); ?>/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet">
 		<?php // wordpress head functions ?>
 		<?php wp_head(); ?>
