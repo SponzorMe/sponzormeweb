@@ -1,7 +1,8 @@
 <?php
 
-class Spy_REST_Server extends WP_REST_Server {
+class Spy_REST_Server {
 	/**
+class Spy_REST_Server extends WP_REST_Server {
 	 * Get the raw $endpoints data from the server
 	 *
 	 * @return array

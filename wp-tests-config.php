@@ -26,9 +26,9 @@ define( 'WP_DEBUG', true );
 // These tests will DROP ALL TABLES in the database with the prefix named below.
 // DO NOT use a production database or one that is shared with something else.
 
-define( 'DB_NAME', 'wpwebprod' );
-define( 'DB_USER', 'wpwebprod' );
-define( 'DB_PASSWORD', 'qdtdRi3jAj2WUN$' );
+define( 'DB_NAME', 'scotchbox' );
+define( 'DB_USER', 'root' );
+define( 'DB_PASSWORD', 'root' );
 define( 'DB_HOST', 'localhost' );
 define( 'DB_CHARSET', 'utf8' );
 define( 'DB_COLLATE', '' );

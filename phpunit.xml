@@ -1,7 +1,4 @@
-<phpunit
-	bootstrap=“./includes/bootstrap.php"
-	backupGlobals="false"
-	colors="true"
+<phpunit bootstrap="./includes/bootstrap.php" backupGlobals="false" colors="true"
 	convertErrorsToExceptions="true"
 	convertNoticesToExceptions="true"
 	convertWarningsToExceptions="true">
