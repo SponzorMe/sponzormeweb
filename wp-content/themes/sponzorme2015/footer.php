@@ -1,9 +1,12 @@
 <?php // all js scripts are loaded in library/bones.php ?>
 		<?php wp_footer(); ?>
 
-		<footer class="mdl-mini-footer">
-			<div class="mdl-mini-footer__left-section"><a href="<?php site_url(); ?>?lang=es"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/spanish.png"></a>&nbsp; <a href="<?php site_url(); ?>?lang=en"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/english.png"></a>&nbsp; <a href="<?php site_url(); ?>?lang=pt-br"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/pt.png"></a></div>
-        <div class="mdl-mini-footer__right-section footermini">
+		<div class="footer white-background">
+			<div class="row">
+				<div class="col-md-6" style="padding-left:10%">
+				<a href="<?php site_url(); ?>?lang=es"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/spanish.png"></a>&nbsp; <a href="<?php site_url(); ?>?lang=en"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/english.png"></a>&nbsp; <a href="<?php site_url(); ?>?lang=pt-br"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/pt.png"></a>
+			 </div>
+        <div class="col-md-6 text-right footermini" style="padding-right:10%; padding-top:5px">
 					<?php
 					if(!isset($_GET['lang']))
 					{
@@ -39,9 +42,10 @@
 						'depth' => 0,                                   // limit the depth of the nav
 						'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
 					)); ?>
-        </div>
 
-    </footer>
+				</div>
+    </div>
+		</div>
 		<figure id="video_player">
       <video autoplay poster="<?php echo get_template_directory_uri(); ?>/video/fondo.jpg" id="fondo">
         <source src="<?php echo get_template_directory_uri(); ?>/video/video1.mp4" type='video/mp4'>
@@ -49,7 +53,7 @@
       </video>
     </figure>
 		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="<?php echo get_template_directory_uri(); ?>/lib/jquery/jquery.min.js"></script>
+		<script src="<?php echo get_template_directory_uri(); ?>/lib/jquery/dist/jquery.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/lib/bootstrap/dist/js/bootstrap.min.js"></script>
 		<script src="<?php echo get_template_directory_uri(); ?>/lib/videoscript/videoscript.js"></script>
 	</body>

@@ -2,21 +2,45 @@ body{
   font-family: 'Roboto' !important;
 }
 
-header {
-  background-color: white !important;
-  color: black !important;
-  top: 0px !important;
-  width: 100% !important;
-  height: 55px; }
-/*
-.mdl-layout__container {
-  top: 0px !important; }
-*/
-.mdl-cell {
-  margin: 0px !important; }
+.navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 0px;
+      width: 100% !important;
+}
 
-footer .mdl-mega-footer--link-list, .mdl-mega-footer__link-list{
-  margin: 0px !important;
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    padding: 5px 0px;
+    border: 0px solid transparent;
+
+}
+
+.white-background {
+background-color: #fff !important;
+}
+
+.no-padding{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 10px 0px;
+    font-size: 12px;
+    height: 50px;
+    z-index: 1030;
 }
 
 .hentry{
@@ -55,16 +79,6 @@ footer .mdl-mega-footer--link-list, .mdl-mega-footer__link-list{
 .logo strong {
   color: #00838d; }
 
-.redes {
-  text-align: right;
-  color: white;
-}
-
-.mdl-mini-footer {
-  bottom: 0px;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-}
 
 .centertable {
   display: table-cell;
@@ -136,7 +150,7 @@ footer {
     background-color: white;
     font-size: 15px;
     padding: 10px;
-    margin: 10px 115px;
+    margin: 5px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -166,11 +180,10 @@ footer {
 }
 
 .tabs li#head1 {
-padding-left: 8px !important;
-width: 49%;
+width: 50%;
 }
 .tabs li#head2 {
-width: 49%;
+width: 50%;
 }
 
 .tabs input[type="radio"] {
@@ -214,15 +227,16 @@ width: 49%;
   z-index: 2;
   display: none;
   overflow: hidden;
-  width: 30%;
   font-size: 17px;
   line-height: 25px;
   padding: 10px;
   position: absolute;
-  /*top: 53px;*/
-  left: 35%;
+  left:0;
   background: white;
-  margin-top: -17px;
+  margin-top: -11px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 55px;
 }
 .tabs [id^="tab"]:checked + label {
   top: 0;

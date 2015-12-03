@@ -43,13 +43,14 @@
 	</head>
 
 	<body>
-	  <section>
-	    <header class="mdl-cell mdl-cell--12-col" >
-	      <section class="mdl-layout__header-row">
-	          <section class="logo mdl-cell mdl-cell--8-col">
-	            <a href="<?php site_url(); ?>/?lang=<?php if(isset($_GET['lang'])){ echo $_GET['lang']; }else{ echo 'en';} ?>"><p>Sponzor<strong>Me</strong></p></a>
-	          </section>
-	          <section class="redes mdl-cell mdl-cell--4-col">
+
+	    <div class="navbar navbar-fixed-top white-background" >
+				<div class="row">
+						<div class="col-md-6" style="padding-left:10%">
+	            <a href="<?php site_url(); ?>/?lang=<?php if(isset($_GET['lang'])){ echo $_GET['lang']; }else{ echo 'en';} ?>"><img style="max-width:150px; margin-top:5px;"
+             src="<?php echo get_template_directory_uri(); ?>/img/logo.png"></a>
+						</div>
+	          <div class="col-md-6 hidden-sm text-right" style="padding-right:10%;padding-top:5px">
 
 									<a class="" href="https://www.facebook.com/SponzorMe"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/facebok.png"></a>&nbsp;
 									<a class="" href="http://j.mp/1ROIb0l"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/gplus.png"></a>&nbsp;
@@ -58,6 +59,6 @@
 									<a class="" href="http://sponzorme.tumblr.com/"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/tumblr.png"></a>&nbsp;
 									<a class="" href="https://twitter.com/sponzorme"><img height="32px" src="<?php echo get_template_directory_uri(); ?>/img/twitter.png"></a>&nbsp;
 
-	          </section>
-	      </section>
-	    </header>
+	          </div>
+						</div>
+	    </div>
