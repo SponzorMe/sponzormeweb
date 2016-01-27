@@ -1,17 +1,9 @@
-machine:
-  php:
-    version: 5.5.11
+dependencies:
+  pre:
+    - sudo pip install awsebcli
 deployment:
-  staging:
-    branch: local
-    codedeploy:
-      SponzorMeWeb:
-        deployment_group: SponzorMeWeb
-        application_root: /
-        revision_location:
-          revision_type: S3
-          s3_location:
-            bucket: circledeploy
-            key_pattern: revs/sponzormeweb-staging-{BRANCH}-{COMMIT}
-        region: us-west-2
-        deployment_config: CodeDeployDefault.AllAtOnce
+  production:
+    branch: master
+    commands:
+      - bash ./setup-eb.sh
+      - eb deploy
