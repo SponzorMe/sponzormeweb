@@ -26,8 +26,7 @@ switch ($hostname) {
     case 'local.sponzor.me':
         define('WP_ENV', 'development');
         break;
-
-    case 'web.sponzor.me':
+    case 'sponzormeweb-staging.us-west-2.elasticbeanstalk.com':
         define('WP_ENV', 'staging');
         break;
     case 'www.sponzor.me':
