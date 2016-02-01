@@ -1,0 +1,12 @@
+branch-defaults:
+  staging:
+    environment: sponzormeweb-staging
+  master:
+    environment: sponzormewebProduct-env
+global:
+  application_name: sponzormeweb
+  default_ec2_keyname: sponzormestaging
+  default_platform: PHP 5.6
+  default_region: us-west-2
+  profile: eb-cli
+  sc: git

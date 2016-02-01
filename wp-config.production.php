@@ -18,7 +18,7 @@ define('DB_USER', 'wpwebprod');
 /** MySQL database password */
 define('DB_PASSWORD', 'qdtdRi3jAj2WUN$');
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'wpprod-cluster.cluster-cxln9jws5vrm.us-west-2.rds.amazonaws.com:3306');
 /**
  * For developers: WordPress debugging mode.
  *
