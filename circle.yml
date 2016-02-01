@@ -1,3 +1,14 @@
-machine:
-  php:
-    version: 5.5.11
+dependencies:
+  pre:
+    - sudo pip install awsebcli
+deployment:
+  production:
+    branch: master
+    commands:
+      - bash ./setup-eb.sh
+      - eb deploy
+  staging:
+    branch: staging
+    commands:
+      - bash ./setup-eb.sh
+      - eb deploy
