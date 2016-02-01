@@ -2,7 +2,7 @@ branch-defaults:
   staging:
     environment: sponzormeweb-staging
   master:
-    environment: sponzormewebProduct-env
+    environment: sponzormewebproduction
 global:
   application_name: sponzormeweb
   default_ec2_keyname: sponzormestaging
