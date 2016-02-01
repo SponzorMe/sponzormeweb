@@ -12,3 +12,4 @@ deployment:
     commands:
       - bash ./setup-eb.sh
       - eb deploy
+      
