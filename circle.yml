@@ -10,4 +10,4 @@ deployment:
     branch: staging
     commands:
       - bash ./setup-eb.sh
-      - eb deploy
+      - eb deploy 
