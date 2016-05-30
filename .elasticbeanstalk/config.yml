@@ -1,6 +1,4 @@
 branch-defaults:
-  staging:
-    environment: sponzormeweb-staging
   master:
     environment: sponzormewebproduction
 global:

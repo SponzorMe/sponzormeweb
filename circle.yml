@@ -7,7 +7,3 @@ deployment:
     commands:
       - bash ./setup-eb.sh
       - eb deploy
-    branch: staging
-    commands:
-      - bash ./setup-eb.sh
-      - eb deploy 
