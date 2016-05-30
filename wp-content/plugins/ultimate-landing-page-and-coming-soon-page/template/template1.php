@@ -102,7 +102,7 @@ z-index:-1
 					<td align="center" id="headline"><h1><?php echo stripslashes($ulp_options['headline']) ?></h1></td>
 				</tr>
 				<tr valign="top">
-					<td id="description"><?php echo $ulp_options['description'] ?></td>
+					<td id="description"><?php echo do_shortcode($ulp_options['description']); ?></td>
 				</tr>
 				<tr>
 					 <td align="center">

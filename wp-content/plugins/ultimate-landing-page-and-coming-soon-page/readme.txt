@@ -1,10 +1,10 @@
-=== Ultimate Landing Page and Coming Soon Page ===
+=== Landing Page ===
 Contributors: jeffbullins
 Donate link: http://www.thinklandingpages.com
-Tags: landing page, coming soon page, maintenance page, email list, squeeze page, list building, video landing page, contest landing page, email optin landing page, landing page design, landing page templates, free landing page templates, music landing page, real estate landing page, affiliate landing page, conversion landing page, easy landing page, financial landing page, book landing page, ebook landing page, product landing page, launch page
+Tags: landing page, coming soon page, maintenance page, coming soon, email list, squeeze page, free landing page templates, giveaway page, video landing page, contest landing page, book landing page, product landing page
 Requires at least: 3.0
-Tested up to: 4.3.1
-Stable tag: 1.1.35
+Tested up to: 4.5.1
+Stable tag: 1.1.36
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,7 +55,7 @@ Create a landing page or coming soon page in as little as 5 minutes without any 
 
 I created this plugin with marketers and designers in mind.  It is easy to use whether you are building your own list or helping your clients build their list.  This plugin will help you create landing pages and coming soon pages that will work for you.  I use this plugin for all of my landing pages and coming soon pages.  I guarantee it will work for you.
 
-Don't try to use post or other pages as a substitute for landing pages or coming soon page.  Landing pages and coming soon pages are designed specifically to get a response from your visitors.
+Don't try to use post or other pages as a substitute for landing pages or coming soon page.  Landing pages and coming soon pages are designed specifically to get a response from your visitors.  They are designed to build your email list and make sales.S
 
 ###Coming Soon Pages
 
@@ -69,9 +69,33 @@ You also want to make sure you include a sign-up form on your coming soon page. 
 
 Coming soon pages can also be used to quickly validate an idea.  For instance, you believe that a book idea you have will sell well.  Instead of writing the book, creating a full website, and marketing the book; you can start with a coming soon page and see what kind of responses you get.
 
+Or lets say you want to offer a new service...you can quickly setup a coming soon page and share it with everyone you know.
+
+###Collect emails on your landing pages with Aweber, Mailchimp, and other email list management software
+
+The Advanced version makes it easy for you to collect emails on your landing pages with Aweber, Mailchimp, or any other email list management software including GetResponse and Constant Contact.  The Advanced plugin also gives you the ability to turn off the default form for any landing page.  You can then add a custom form to your landing pages or you can leave the create a landing page without a form.  Examples of landing pages without forms are sales pages and webinar pages.
+
 ###Video Landing Pages and Coming Soon Pages
 
 You can build video landing pages and coming soon pages with the Ultimate Landing Page and Coming Soon Page plugin.  Putting a Video on a landing page or coming soon page is good for helping get your message accross clearly.  The best way to build a video landing page or coming soon page is to host the video on a video hosting site like youtube.com.  Then embed the video in your landing page or coming soon page.
+
+A coming soon page can help you start a conversation with visitors to your website before you have site completely ready.
+
+###Giveaway (Contest) Landing Pages
+
+Build contest landing pages with the Ultimate Landing Page Advanced plugin.  A great way to get new subscribers it to setup a giveaway and then make a landing page to send all of the interested traffic.  Advertise the contest landing page on social media, your website, forums, and to your existing list.  Give an extra incentive on the landing page for subscribers that refer traffic to the contest landing page.
+
+Once you choose the winner for the giveaway, you can email all the subscribers and run another giveaway.
+
+###Sales Funnels
+
+No marketing plan is complete without a sales funnel.  Ultimate Landing Page Advanced gives you the tools to create entire sales funnels.  You can create an unlimited amount of landing pages.  Each of your landing pages can be designed to meet the specific need you have in your sales funnel.  Place your lead magnet offer on a squeeze page.  Then create a landing page for your subscribers to download the offer.  Next create landing pages to use as sales pages, webinars, upsells, downsells, etc...  You can create simple 2 step funnels or super complex funnels with the landing page plugin.
+
+###Custom css and javascript
+
+Sometimes you need to tweak your landing pages and coming soon page a little bit.  With the Ultimate Landing Page and Coming Soon Page Advanced plugin you can add custom css and javascript to each landing page and coming soon page.
+
+If you need to add javascript, just drop your code into the custom code box and it will be added to your landing page or coming soon page.
 
 
 *  [Upgrade to the Advanced version!](http://www.thinklandingpages.com/landingpage/ultimate-landing-page-advanced-pricing-with-pro-version-2/?utm_source=inside%20landing%20page%20plugin%20repoTop-to-feature-page&utm_medium=plugin&utm_campaign=inside%20landing%20page%20plugin%20repoTop-to-feature-page)
@@ -113,6 +137,9 @@ You can make one coming soon page and one landing page with the free plugin you 
 = Can I put custom css on my landing pages and coming soon pages? =
 The Advanced version of the plugin has a box for placing custom css on your landing pages and coming soon pages.
 
+= Can I put javascript on my landing pages and coming soon pages? =
+You can put javascript on your landing pages and coming soon pages using the Advanced version.
+
 = What is the difference between a coming soon page and a landing page? =
 A landing page is page you create to send targeted traffic.  A coming soon page is a landing page with a the specific purpose of announcing your product/website is coming soon.
 
@@ -124,6 +151,21 @@ The advanced version of the plugin allows you to put analytics code on your land
 
 = Can I make Thank You pages with the landing page plugin? =
 You can make Thank You pages using the Ultimate Landing Page Advanced plugin.
+
+= Can I put videos on my landing pages? =
+Yes, you can put videos on the landing pages.
+
+= Can I customize the url (permalink) to my landing page(s)? =
+Yes, you can customize the url in all versions of the landing page plugin.
+
+= Can I create sales funnels with the landing page plugin? =
+You can create sales funnels with the Ultimate Landing Page Advanced plugin. 
+
+= Can I change the color of my text? = 
+In the repository version of the ultimate landing page and coming soon page you can change the color using css.  In the advanced version of the ultimate landing page and coming soon page there are custom controls to easily allow you to change the color of the text on your landing page or coming soon page.
+
+= Can I use the ultimate landing page and coming soon page plugin as a maintenance mode page? =
+Yes, you can use the ultimate landing page coming soon page plugin as a maintenance mode.
 
 == Screenshots ==
 
@@ -232,5 +274,8 @@ You can make Thank You pages using the Ultimate Landing Page Advanced plugin.
 
 = 1.1.34 =
 * Added font Margarine to landing page and coming soon page
+
+= 1.1.36 =
+* Added shortcode capability
 
 == Upgrade Notice ==
