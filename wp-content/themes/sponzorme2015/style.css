@@ -2,6 +2,11 @@ body{
   font-family: 'Roboto' !important;
 }
 
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
 .navbar-fixed-top {
       top: 0;
       border-width: 0 0 0px;
@@ -20,11 +25,10 @@ body{
     min-height: 50px;
     padding: 5px 0px;
     border: 0px solid transparent;
-
 }
 
 .white-background {
-background-color: #fff !important;
+    background-color: #fff !important;
 }
 
 .no-padding{
@@ -152,6 +156,7 @@ footer {
     padding: 10px;
     margin: 5px;
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
 }
 
 .mainbtn a{
@@ -251,6 +256,7 @@ width: 50%;
   color: white;
   font-size:32px;
   text-shadow: 1px 1px 1px black;
+  position: relative;
 }
 
 a.linkmain{
