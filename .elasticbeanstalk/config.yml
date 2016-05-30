@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: sponzormewebproduction
+    environment: sponzormewebprodenv
 global:
   application_name: sponzormeweb
   default_ec2_keyname: sponzormestaging
