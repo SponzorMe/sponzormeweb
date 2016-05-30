@@ -14,17 +14,17 @@
 					}
 					if($_GET['lang']=="es"){
 					?>
-					<a href="/testimonials-3/?lang=es">Testimonios</a> <a href="/support-3/?lang=es">Soporte</a> <a target="_blank" href="http://bloges.sponzor.me/">Blog</a> <a href="/privacy/?lang=es">Privacidad</a>
+					<a href="/testimonials-3/?lang=es">Testimonios</a> <a href="/pagina-de-precios/?lang=es">Precios</a><a href="/support-3/?lang=es">Soporte</a> <a target="_blank" href="http://bloges.sponzor.me/">Blog</a> <a href="/privacy/?lang=es">Privacidad</a>
 					<?php
 					}
 					elseif($_GET['lang']=="en"){
 					?>
-					<a href="/testimonials-3/?lang=en">Testimonials</a> <a href="/support-3/?lang=en">Support</a> <a target="_blank" href="http://bloges.sponzor.me/">Blog</a> <a href="/privacy/?lang=en">Privacy</a>
+					<a href="/testimonials-3/?lang=en">Testimonials</a> <a href="/pricing/?lang=en">Pricing</a> <a href="/support-3/?lang=en">Support</a> <a target="_blank" href="http://bloges.sponzor.me/">Blog</a> <a href="/privacy/?lang=en">Privacy</a>
 					<?php
 					}
 					elseif($_GET['lang']=="pt-br"){
 					?>
-					<a href="/testimonials-3/?lang=pt-br">Depoimentos</a> <a href="/support-3/?lang=pt-br">Apoio</a> <a target="_blank" href="http://blogpt.sponzor.me/">Blog</a> <a href="/privacy/?lang=pt-br">Privacidade</a>
+					<a href="/testimonials-3/?lang=pt-br">Depoimentos</a> <a href="/support-3/?lang=pt-br">Apoio</a><a target="_blank" href="/planos-e-precos/?lang=pt-br">Planos</a> <a target="_blank" href="http://blogpt.sponzor.me/">Blog</a> <a href="/privacy/?lang=pt-br">Privacidade</a>
 					<?php
 					}
 					?>
