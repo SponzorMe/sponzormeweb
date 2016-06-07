@@ -2,7 +2,7 @@ branch-defaults:
   master:
     environment: sponzormewebprodenv
 global:
-  application_name: sponzormeweb
+  application_name: sponzormewebprod
   default_ec2_keyname: sponzormestaging
   default_platform: PHP 5.6
   default_region: us-west-2
