@@ -1,6 +1,7 @@
 .htaccess
 stats/
 includes/.svn/
+.sass-cache
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
