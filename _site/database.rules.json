@@ -1,0 +1,42 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "localhost": {
+      "notifications": {
+        ".indexOn": [
+          "to"
+        ]
+      },
+      "chat": {
+        ".indexOn": [
+          "sponzorshipId"
+        ]
+      }
+    },
+    "staging": {
+      "notifications": {
+        ".indexOn": [
+          "to"
+        ]
+      },
+      "chat": {
+        ".indexOn": [
+          "sponzorshipId"
+        ]
+      }
+    },
+    "production": {
+      "notifications": {
+        ".indexOn": [
+          "to"
+        ]
+      },
+      "chat": {
+        ".indexOn": [
+          "sponzorshipId"
+        ]
+      }
+    }
+  }
+}
