@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "firebase-sponzorme"
+    "default": "firebase-sponzorme",
+    "prod": "firebase-sponzorme"
   }
 }
